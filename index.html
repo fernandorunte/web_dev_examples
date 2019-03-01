@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Canvas example</title>
+</head>
+<body>
+	<canvas id="mycanvas" width="290" height="80" style="border:1px solid #d3d3d3">Your brower does not support HTML5 canvas</canvas>
+
+	
+	
+	<p id="demo">Javascript will change this HTML content</p>
+	<button type="button" onclick='document.getElementById("demo").innerHTML= "Hello Javascript"''>Click me</button>
+	
+
+	<script>
+		var c=document.getElementById("mycanvas");
+		var ctx=c.getContext("2d");
+		ctx.font="30px Georgia"
+		ctx.strokeText("Software Engineer", 15, 50)
+		ctx.align("center")
+	</script>
+
+
+</body>
+</html>
