@@ -1,0 +1,50 @@
+
+body{
+	margin: 0px;
+}
+
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+h1{
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid #616f39;
+	width: 400px;
+	text-align: center;
+	color: #a7d129;
+	/*these prefixes are used to allow new-features in these broswers
+	-moz-box-shadow: box-shadow: 4px 4px 5px #888;
+	-ms-box-shadow: box-shadow: 4px 4px 5px #888;
+	-webkit-box-shadow: box-shadow: 4px 4px 5px #888;
+	-o-box-shadow: box-shadow: 4px 4px 5px #888;*/
+	box-shadow: 4px 4px 5px #888;
+}
+
+
+img{
+	width: 450px;
+	height: 300px;
+	margin: 10px;
+	transition: all 1s;
+}
+
+img:hover{
+	transform: scale(1.1);
+}
+
+
+#footer_section{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 200px;
+	border-top: 2px solid #616f39;
+	background-color: #f8eeb4;
+
+}
+

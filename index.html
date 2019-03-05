@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Canvas example</title>
+	<title>Flex-Box Example</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<canvas id="mycanvas" width="290" height="80" style="border:1px solid #d3d3d3">Your brower does not support HTML5 canvas</canvas>
+	<h1>Life in the Wild</h1>
+	<div class="container">
+		<img src="https://static.pexels.com/photos/52500/horse-herd-fog-nature-52500.jpeg">
+		<img src="https://static.pexels.com/photos/66898/elephant-cub-tsavo-kenya-66898.jpeg">
+		<img src="https://static.pexels.com/photos/213399/pexels-photo-213399.jpeg">
+		<img src="https://static.pexels.com/photos/158471/ibis-bird-red-animals-158471.jpeg">
+		<img src="https://static.pexels.com/photos/133459/pexels-photo-133459.jpeg">
+		<img src="https://static.pexels.com/photos/50988/ape-berber-monkeys-mammal-affchen-50988.jpeg">
+	</div>
 
-	
-	
-	<p id="demo">Javascript will change this HTML content</p>
-	<button type="button" onclick='document.getElementById("demo").innerHTML= "Hello Javascript"''>Click me</button>
-	
-
-	<script>
-		var c=document.getElementById("mycanvas");
-		var ctx=c.getContext("2d");
-		ctx.font="30px Georgia"
-		ctx.strokeText("Software Engineer", 15, 50)
-		ctx.align("center")
-	</script>
-
-
+	<footer>
+			<div id="footer_section">
+				<address>
+					Written by Fernando Runte<br>
+					E-Portfolio: <a href="fernandorunte.com">Fernandorunte.com</a><br>
+					Github: <a href="https://github.com/ferntheplant">Ferntheplant</a><br>
+					LinkedIn: <a href="https://www.linkedin.com/in/fernandorunte/">Fernando Runte</a><br>
+					Tx, USA<br>
+				</address>
+				<p> Fernando Runte, copyright &copy; 2019</p>
+			</div>
+			
+	</footer>
 </body>
 </html>
